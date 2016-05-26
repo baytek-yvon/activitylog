@@ -2,7 +2,7 @@
 
 namespace Spatie\Activitylog;
 
-use Illuminate\Config\Repository;
+use Orchestra\Config\Repository;
 use Illuminate\Contracts\Auth\Guard;
 use Spatie\Activitylog\Handlers\BeforeHandler;
 use Spatie\Activitylog\Handlers\DefaultLaravelHandler;
